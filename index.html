@@ -5,11 +5,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/amazon-logo.svg">
     <link rel="stylesheet" href="./css/main.css">
-    <title>Document</title>
+    <title>Amazon</title>
 </head>
 
 <body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <button class="header__burger"></button>
+
+        <div class="container header__container">
+            <a href="index.html" class="header__logo-link">
+                <img class="header__logo-img" src="./img/logo.png" alt="logo" width="106" height="32">
+            </a>
+            <form class="form">
+                <select class="form__select">
+                    <option class="form__option" value="all">All</option>
+                </select>
+                <input class="form__input" type="text"
+                    placeholder="Search Mobiles, TV, Laptops,Tablets, Beauty & Personal Care etc">
+                <button class="form__input-btn"></button>
+            </form>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a class="header__link" href="#">
+                            <img class="header__link-img" src="./img/heart-icon.svg" alt="heart" width="20" height="18">
+                        </a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#">
+                            <img class="header__link-img" src="./img/shopping-bag.svg" alt="shopping" width="24"
+                                height="24">
+                        </a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#">
+                            <img class="header__link-img" src="./img/carbon_location.svg" alt="location-icon" width="20"
+                                height="20">
+                            Pakistan
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <a class="header__login" href="#">Login</a>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main"></main>
+
+    <!-- FOOTER -->
+    <footer class="footer"></footer>
+
+    <!-- JAVASRIPT -->
+    <script src="./js/catalog.js"></script>
+    <script src="./js/script.js"></script>
 
 </body>
 
